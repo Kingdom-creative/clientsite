@@ -1,0 +1,608 @@
+/*
+	Theme Name: Website name
+	Theme URI: http://blank.lewishealey.co.uk
+	Description: A blank Bootstrap website with extras
+	Version: 1.0.0
+	Author: Lewis Healey (@lewishealey)
+	Author URI: http://lewishealey.co.uk
+	Tags: Blank, HTML5, CSS3, Font Awesome, Bootstrap
+	
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+
+
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/
+
+@primary: 		#fb5a5a ;
+@secondary: 	#70e8cb ;
+@tertiary: 	    #fde8c6 ;
+@white: 		#f6f6f6 ;
+@grey: 			#565656 ;  
+@dark: 			#2d2d2f ;
+@section-padding: 50px;
+
+/*------------------------------------*\
+    GLOBAL
+\*------------------------------------*/
+
+.clearboth { 
+	clear: both; 
+	padding: 0; 
+	margin: 0; }
+
+.first { 
+	margin: 0 !important;}
+
+.animate { 
+	-webkit-transition: all 0.7s ease; 
+	-moz-transition: all 0.7s ease; 
+	-ms-transition: all 0.7s ease; 
+	-o-transition: all 0.7s ease; 
+	transition: all 0.7s ease; }
+
+body,
+html {
+  height: 100%;
+  background: #f6f6f6 url("http://kingdom-creative.co.uk/site/wp-content/uploads/2014/02/geometry.png") repeat;
+
+}
+
+body {
+	color: @grey; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0px; 
+}
+
+img {
+  max-width: 100%;
+}
+
+hr { border-top: 1px solid darken(@white,5%); 
+	border-bottom: 1px solid lighten(@white,5%); 
+	border-left: none;
+	border-right: none; }
+	
+	a { color: @primary;}
+	a:hover, a:focus { color: @secondary;}
+
+.primary        { background: @primary; }
+.secondary      { background: @secondary; }
+.tertiary       { background: @tertiary; }
+.white          { background: @white; }
+.grey           { background: @grey; }
+.dark           { background: @dark; }
+
+.primary-text   { color: @primary; }
+.secondary-text { color: @secondary; }
+.tertiary-text  { color: @tertiary; }
+.white-text     { color: @white; }
+.grey-text      { color: @grey; }
+.dark-text      { color: @dark; }
+
+	
+/*------------------------------------*\
+    HEADER
+\*------------------------------------*/
+
+.header {
+	background: url("img/bg-primary.jpg")no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	padding: @section-padding 0;
+	
+	border-bottom: 1px solid lighten(@white, 5%);
+	
+	a { color: @white; }
+}
+
+.right-cl {
+	text-align: right;
+	color: @white;
+}
+
+.lighter-text {
+	font-weight: 200;
+}
+
+.title { 
+padding: 50px 15px; 
+
+h2 {
+	margin: 0;
+}}
+
+
+
+
+#active-projects {
+
+h5 { padding-bottom: 15px; }
+
+}
+
+
+
+/*------------------------------------*\
+    SINGLE PROJECTS
+\*------------------------------------*/
+
+#single-projects, #deliverables{
+
+margin-bottom: @section-padding;
+padding-bottom: @section-padding;
+
+h5 { padding-bottom: 15px; }
+
+}
+
+.video-info {
+	border-top: 1px solid darken(@white,8%);
+	padding: 25px 0;
+	
+	i { padding-right: 25px; }
+	
+	.list-text { line-height: 40px; font-size: 13px; }
+	
+	.list-text, .list-info { 
+		margin: 0;	
+	}
+}
+
+#single-projects {
+	
+	iframe { border-bottom: 5px solid @dark; 
+	-webkit-border-image:url(img/bg-pattern-border.jpg) 30 30 round; /* Safari 5 */
+-o-border-image:url(img/bg-pattern-border.jpg) 30 30 round; /* Opera */
+border-image:url(img/bg-pattern-border.jpg) 30 30 round;
+	}
+}
+
+.btn-right {
+	float: right;
+}
+
+
+#brief-information {
+	background: @secondary;
+	padding: @section-padding
+}
+
+/*------------------------------------*\
+    SINGLE FILMS
+\*------------------------------------*/
+
+
+#single-films {
+
+	padding-bottom: @section-padding;
+
+	iframe { 
+	border-bottom: 5px solid @dark; 
+	-webkit-border-image:url(img/bg-pattern-border.jpg) 30 30 round; /* Safari 5 */
+-o-border-image:url(img/bg-pattern-border.jpg) 30 30 round; /* Opera */
+border-image:url(img/bg-pattern-border.jpg) 30 30 round; }
+
+	}
+	
+#downloads {
+	padding: @section-padding;
+	background: @secondary;
+	width: 100%;
+}
+
+
+/*------------------------------------*\
+    PROJECTS
+\*------------------------------------*/
+
+.project-list {
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid darken(@white,8%);
+	border-bottom: 1px solid lighten(@white,8%); 
+	
+	
+	.row { 
+	-webkit-transition: all 0.7s ease; 
+	-moz-transition: all 0.7s ease; 
+	-ms-transition: all 0.7s ease; 
+	-o-transition: all 0.7s ease; 
+	transition: all 0.7s ease; 
+	
+	border-left: 5px solid transparent;}
+	
+	.row:hover { background: @primary; color: @white; border-left: 5px solid darken(@primary,2%); }
+	.row:hover .btn-primary-outline { border-color: @white; color: @white; }
+	
+	.row a:hover { color: @white; }
+	
+	li { 
+		 border-bottom: 1px solid darken(@white,8%); 
+	     border-top: 1px solid lighten(@white,8%); 
+	     
+	     list-style: none;
+	}
+	
+	
+	li:first-child {
+		
+	}
+	
+	i { padding-right: 25px; }
+	
+	.list-text, .list-info { 
+		padding: 24px 0; 
+		margin: 0;	
+	}
+		
+	.list-info { opacity: 0.4; }
+	
+	.list-text { opacity: 0.8; }
+	
+	.btn { margin: 15px 0; float: right;}
+}
+
+.list-sub i {
+		padding-right: 10px; }
+		
+		
+		
+/*------------------------------------*\
+    COMPLETED PROJECTS
+\*------------------------------------*/
+
+.completed-action {
+	padding-top: @section-padding;
+}
+
+
+
+
+/*------------------------------------*\
+    BS OVER RIDES
+\*------------------------------------*/
+
+.btn-primary {
+  color: #ffffff;
+  background-color: @primary;
+  border: 3px solid darken(@primary,5%);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: darken(@primary,5%);
+  border: 3px solid darken(@primary,10%);
+}
+
+.btn-dark {
+  color: #ffffff;
+  background-color: @dark;
+  border: 3px solid darken(@dark,5%);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active,
+.btn-dark.active,
+.open .dropdown-toggle.btn-dark {
+  color: #ffffff;
+  background-color: darken(@dark,5%);
+  border: 3px solid darken(@dark,10%);
+}
+
+.btn-primary-outline {
+  color: @primary;
+  background-color: transparent;
+  border: 3px solid @primary;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline:active,
+.btn-primary-outline.active,
+.open .dropdown-toggle.btn-primary-outline {
+  color: darken(@primary,5%)!important;
+  background-color: transparent;
+  border-color: darken(@primary,5%);
+}
+
+.btn-default {
+  background-color: #f6f6f6;
+  border: 3px solid @white;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn-pattern {
+  background: @primary url("assets/bg-pattern.jpg");;
+  border: 3px solid transparent;
+  color: @dark;
+}
+
+.btn-pattern:hover,
+.btn-pattern:focus,
+.btn-pattern:active,
+.btn-pattern.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: @secondary;
+}
+
+.btn-pattern-alt {
+  background: @primary url("assets/bg-pattern-2.jpg");;
+  border: 3px solid transparent;
+  color: @dark;
+}
+
+.btn-pattern-alt:hover,
+.btn-pattern-alt:focus,
+.btn-pattern-alt:active,
+.btn-pattern-alt.active,
+.open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: @tertiary;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: @primary;
+	color: @white;
+}
+.nav > li > a:hover {
+	background-color: @dark;
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+.page { background: @dark; }
+
+.section-title { 
+	margin-top: 0px; 
+	line-height: 42px;
+	margin-bottom: 0px;}
+	
+	.sub-title { 
+	margin-top: 5px; 
+	opacity: 0.5;
+	font-weight: 200; 
+	letter-spacing: 3px; 
+	line-height: 18px;
+	text-transform: uppercase; 
+	font-family: "futura_stdbook";}
+
+.section {
+	padding: @section-padding;
+	display: inline-block;
+	width: 100%;
+}
+
+.text { color: @grey; }
+
+.descr { 
+	margin-bottom: 0px; 
+	color: lighten(@grey,15%); 
+	font-size: 13px;}
+	
+.metrics { 
+	color: lighten(@grey,30%);
+	font-size: 13px; }
+	
+.im-ex { margin-bottom: 30px; }
+
+
+/*------------------------------------*\
+    FOOTER
+\*------------------------------------*/
+
+footer {
+	background: @dark; 
+	color: @white;
+	padding: 50px 0;
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+   
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+   
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

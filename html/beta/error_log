@@ -1,0 +1,204 @@
+[23-Mar-2011 11:40:45] PHP Fatal error:  Uncaught exception 'Exception' with message 'An error occurred when querying the database for client access' in /home/circui14/public_html/client/index.php:179
+Stack trace:
+#0 {main}
+  thrown in /home/circui14/public_html/client/index.php on line 179
+[23-Mar-2011 12:37:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'An error occurred when querying the database for client access' in /home/circui14/public_html/client/client.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/circui14/public_html/client/client.php on line 33
+[23-Mar-2011 12:39:29] PHP Warning:  main() [<a href='function.main'>function.main</a>]: Couldn't fetch mysqli_result in /home/circui14/public_html/client/client.php on line 182
+[23-Mar-2011 12:39:29] PHP Fatal error:  Uncaught exception 'Exception' with message 'Your username or password were not recognised, please try again.' in /home/circui14/public_html/client/client.php:183
+Stack trace:
+#0 {main}
+  thrown in /home/circui14/public_html/client/client.php on line 183
+[23-Mar-2011 12:40:12] PHP Warning:  main() [<a href='function.main'>function.main</a>]: Couldn't fetch mysqli_result in /home/circui14/public_html/client/client.php on line 182
+[23-Mar-2011 12:40:12] PHP Fatal error:  Uncaught exception 'Exception' with message 'Your username or password were not recognised, please try again.' in /home/circui14/public_html/client/client.php:183
+Stack trace:
+#0 {main}
+  thrown in /home/circui14/public_html/client/client.php on line 183
+[23-Mar-2011 12:56:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/circui14/public_html/client/client.php:6) in /home/circui14/public_html/client/client.php on line 43
+[23-Mar-2011 12:56:39] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/circui14/public_html/client/client.php:6) in /home/circui14/public_html/client/client.php on line 43
+[23-Mar-2011 13:06:30] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/circui14/public_html/client/client.php on line 198
+[23-Mar-2011 13:33:58] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/circui14/public_html/client/home.php:10) in /home/circui14/public_html/client/home.php on line 148
+[23-Mar-2011 15:39:25] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 207
+[23-Mar-2011 15:44:21] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 207
+[23-Mar-2011 15:47:01] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 210
+[23-Mar-2011 15:50:12] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 214
+[23-Mar-2011 15:55:28] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home/circui14/public_html/client/home.php on line 215
+[23-Mar-2011 15:56:48] PHP Parse error:  syntax error, unexpected $end in /home/circui14/public_html/client/home.php on line 45
+[11-Apr-2011 12:47:13] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/project.php on line 312
+[12-Apr-2011 12:38:48] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/project.php on line 312
+[16-May-2011 09:38:07] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 280
+[16-May-2011 09:38:28] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 280
+[16-May-2011 09:41:06] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 280
+[16-May-2011 09:47:03] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/project.php on line 314
+[17-May-2011 07:48:34] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 280
+[17-May-2011 03:59:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/circui14/public_html/client/download.php:8) in /home/circui14/public_html/client/download.php on line 24
+[17-May-2011 03:59:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/circui14/public_html/client/download.php:8) in /home/circui14/public_html/client/download.php on line 25
+[17-May-2011 03:59:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/circui14/public_html/client/download.php:8) in /home/circui14/public_html/client/download.php on line 26
+[17-May-2011 03:59:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/circui14/public_html/client/download.php:8) in /home/circui14/public_html/client/download.php on line 27
+[17-May-2011 03:59:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/circui14/public_html/client/download.php:8) in /home/circui14/public_html/client/download.php on line 28
+[17-May-2011 04:26:38] PHP Parse error:  syntax error, unexpected T_CASE in /home/circui14/public_html/client/download.php on line 58
+[17-May-2011 11:06:21] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 280
+[17-May-2011 11:56:01] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 152
+[17-May-2011 12:07:46] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 157
+[17-May-2011 12:11:08] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 157
+[17-May-2011 12:14:05] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 159
+[17-May-2011 12:20:14] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/home.php on line 163
+[17-May-2011 12:40:13] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-May-2011 12:41:43] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-May-2011 13:31:17] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/film.php on line 52
+[20-May-2011 06:42:06] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 169
+[20-May-2011 06:42:35] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 169
+[20-May-2011 06:45:08] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 169
+[20-May-2011 06:47:18] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 169
+[23-May-2011 07:36:18] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[24-May-2011 16:31:04] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[25-May-2011 10:58:30] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 209
+[27-May-2011 11:13:32] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[27-May-2011 13:39:23] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[31-May-2011 14:09:47] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 209
+[06-Jun-2011 06:00:56] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 102400001 bytes) in /home/circui14/public_html/client/download_file.php on line 61
+[06-Jun-2011 12:52:04] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/download.php on line 62
+[06-Jun-2011 15:42:07] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 225
+[07-Jun-2011 02:56:31] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 190
+[22-Jun-2011 13:36:03] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 231
+[22-Jun-2011 13:36:07] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Jun-2011 13:36:10] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 231
+[22-Jun-2011 13:36:13] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Jun-2011 13:40:30] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Jun-2011 13:40:52] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Jun-2011 13:41:50] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[28-Jun-2011 08:34:25] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[14-Jul-2011 08:41:34] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 230
+[18-Jul-2011 08:00:05] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[19-Jul-2011 08:00:25] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 230
+[19-Jul-2011 14:39:50] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[20-Jul-2011 09:59:50] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[20-Jul-2011 11:29:47] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Jul-2011 06:38:03] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[08-Aug-2011 07:56:31] PHP Parse error:  syntax error, unexpected '}' in /home/circui14/public_html/client/film.php on line 195
+[09-Aug-2011 08:04:32] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[12-Aug-2011 08:42:47] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[15-Aug-2011 10:19:40] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[15-Aug-2011 12:21:30] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[15-Aug-2011 14:03:45] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-Aug-2011 08:15:44] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-Aug-2011 14:29:02] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-Aug-2011 14:29:12] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[04-Sep-2011 18:39:04] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[06-Sep-2011 16:10:22] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Sep-2011 17:19:43] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[07-Sep-2011 09:18:33] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[07-Sep-2011 09:19:38] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[07-Sep-2011 11:31:05] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[08-Sep-2011 08:12:53] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[08-Sep-2011 08:23:10] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[10-Sep-2011 13:38:48] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[10-Sep-2011 13:39:54] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[12-Sep-2011 11:40:27] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[13-Sep-2011 14:33:35] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[13-Sep-2011 14:33:45] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[14-Sep-2011 11:07:58] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-Sep-2011 09:10:50] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[17-Sep-2011 09:10:52] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Sep-2011 14:04:52] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[22-Sep-2011 14:34:59] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[26-Sep-2011 10:47:39] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[28-Sep-2011 08:16:01] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[28-Sep-2011 23:47:51] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[05-Oct-2011 16:14:50] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[09-Oct-2011 18:22:51] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[12-Oct-2011 22:07:12] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[12-Oct-2011 22:07:28] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Oct-2011 06:23:51] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[23-Oct-2011 06:24:46] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 06:12:45] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 06:27:16] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 06:43:32] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 07:04:55] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 07:05:38] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Nov-2011 08:58:19] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Nov-2011 16:02:19] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[07-Nov-2011 05:44:48] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[10-Nov-2011 08:59:38] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[10-Nov-2011 17:17:07] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[17-Nov-2011 09:23:56] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[17-Nov-2011 15:31:57] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[21-Nov-2011 08:30:40] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Nov-2011 09:14:52] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Nov-2011 09:15:01] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[23-Nov-2011 10:06:03] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Nov-2011 15:52:57] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Nov-2011 15:58:13] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[25-Nov-2011 18:08:26] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[30-Nov-2011 08:03:05] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[30-Nov-2011 11:15:42] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[01-Dec-2011 09:44:52] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 09:59:37] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 12:25:27] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 12:58:55] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 12:59:08] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 13:51:25] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 14:43:59] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 14:44:05] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 15:37:55] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[01-Dec-2011 16:06:55] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[02-Dec-2011 08:17:03] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[02-Dec-2011 09:04:29] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[02-Dec-2011 15:48:33] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[02-Dec-2011 16:47:01] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[02-Dec-2011 20:19:08] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[02-Dec-2011 20:19:30] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[02-Dec-2011 20:19:32] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[03-Dec-2011 09:46:23] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Dec-2011 10:06:44] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Dec-2011 12:25:40] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Dec-2011 12:25:45] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[06-Dec-2011 12:25:51] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[08-Dec-2011 16:19:10] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Dec-2011 13:21:21] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[09-Dec-2011 21:25:18] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[09-Dec-2011 23:08:05] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[12-Dec-2011 10:28:12] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[14-Dec-2011 08:05:17] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[14-Dec-2011 11:52:06] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[14-Dec-2011 11:52:20] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[15-Dec-2011 11:12:55] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[15-Dec-2011 15:02:05] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[15-Dec-2011 15:19:50] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[18-Dec-2011 14:37:41] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[18-Dec-2011 14:37:50] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[19-Dec-2011 14:36:35] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[23-Dec-2011 11:33:33] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[23-Dec-2011 11:34:28] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[24-Dec-2011 21:49:16] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[24-Dec-2011 22:01:11] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[25-Dec-2011 17:49:30] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[25-Dec-2011 17:49:47] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[29-Dec-2011 16:33:28] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[29-Dec-2011 16:33:37] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[05-Jan-2012 09:00:45] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 234
+[05-Jan-2012 04:23:54] PHP Parse error:  syntax error, unexpected $end in /home/circui14/public_html/client/film.php on line 234
+[05-Jan-2012 12:21:16] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/circui14/public_html/client/film.php on line 20
+[05-Jan-2012 12:21:16] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/circui14/public_html/client/film.php on line 20
+[05-Jan-2012 12:23:32] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/circui14/public_html/client/film.php on line 20
+[05-Jan-2012 12:23:32] PHP Warning:  fsockopen() [<a href='function.fsockopen'>function.fsockopen</a>]: unable to connect to :80 (php_network_getaddresses: getaddrinfo failed: Name or service not known) in /home/circui14/public_html/client/film.php on line 20
+[05-Jan-2012 14:08:42] PHP Fatal error:  Call to undefined function  url_exists() in /home/circui14/public_html/client/film.php on line 158
+[05-Jan-2012 18:35:06] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 267
+[05-Jan-2012 23:13:46] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[06-Jan-2012 08:06:39] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 15:05:01] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 16:41:29] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 16:46:09] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 16:49:54] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 268
+[09-Jan-2012 16:50:05] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 19:34:31] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/circui14/public_html/client/home.php on line 15
+[09-Jan-2012 19:34:31] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 19:34:36] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/circui14/public_html/client/home.php on line 15
+[09-Jan-2012 19:34:36] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 19:35:34] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/circui14/public_html/client/home.php on line 15
+[09-Jan-2012 19:35:34] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[09-Jan-2012 19:35:49] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/circui14/public_html/client/home.php on line 15
+[09-Jan-2012 19:35:49] PHP Fatal error:  Call to a member function fetch_object() on a non-object in /home/circui14/public_html/client/home.php on line 122
+[10-Jan-2012 09:32:41] PHP Fatal error:  Call to a member function close() on a non-object in /home/circui14/public_html/client/film.php on line 299
