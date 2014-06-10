@@ -1,0 +1,13 @@
+
+#shareLink {
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+
+.hide-ie {
+	display: none !important;
+}
+
+.show-ie {
+	display:inherit !important;
+}

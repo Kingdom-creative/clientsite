@@ -1,0 +1,44 @@
+Options +FollowSymLinks
+
+
+RewriteEngine On
+
+RewriteRule ^([A-Za-z0-9-_]+)/home$ home.php [L]
+
+RewriteCond %{THE_REQUEST} //
+RewriteRule .* index.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/projects$ projects.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/projects/page-([0-9]+)$ projects.php?page=$2 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/search$ search.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/search/page-([0-9]+)$ search.php?page=$2 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/logout$ logout.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/project/([0-9]+)/([A-Za-z0-9-_]+)$ project.php?project=$2 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/film/([0-9]+)/([A-Za-z0-9-_]+)$ film.php?film=$2 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/film/([0-9]+)/([A-Za-z0-9-_]+)/([A-Za-z0-9-_]+)$ film.php?film=$2&action=$4 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/help$ help.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/help/([A-Za-z0-9-_]+)$ help.php?page=$2 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/download/([0-9]+)/([A-Za-z0-9-_]+)$ download.php?ref=$2&format=$3 [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/logout$ logout.php [L]
+
+RewriteRule ^([A-Za-z0-9-_]+)/login$ login.php [L]
+
+
+<FilesMatch ".(ttf|otf|eot|woff)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
+
+
